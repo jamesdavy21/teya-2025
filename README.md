@@ -10,7 +10,7 @@ For simplicity, account creation is done on account retrieval or on a valid depo
 Calling list transactions or making a withdrawal with an account id that doesn't exist results in a not found error 
 being returned.
 
-
+The applications currently assume all deposits/withdrawals are in GBP so a float is used and any decimals past 2 are ignored. 
 
 How to run
 ==========
